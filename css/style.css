@@ -513,7 +513,7 @@ img{
     position: relative;
     content: '>';
     left: 0.75em;
-    top: center;
+    top: 50%;
     color: #FFFFFF;
   }
   .breadcrumbs__item:last-child::after{
@@ -983,7 +983,7 @@ height: 100%;
   transform: translate(-50%, -50%);
   }
 .news__cards-link:hover .news__card-pic{
-  transform: scale(105%);
+  transform: scale(1.05);
 }
 .news__cards-link:hover .news__card__title, .news__cards-link:hover .news__card__info{
   opacity: 60%;
@@ -1129,6 +1129,8 @@ height: 100%;
 }
 .contact iframe{
   margin-bottom: 40px;
+  width: 100%;
+  height: 300px;
 }
 .follow-link {
   background-image: url('../img/PNG/sprites.png');
