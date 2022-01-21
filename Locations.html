@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Locations | Odigo</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/PNG/favicon-32x32.png">
+  <link rel="stylesheet" href="Libs/slick/slick.css">
+  <link rel="stylesheet" href="Libs/slick/slick-theme.css">
+  <style>
+    .slick-dots{
+      bottom: 25px;
+    }
+    .slick-dots li button:before{
+      color: white;
+      background: #fff;
+      border-radius: 50%;
+    }
+    .slick-dots li.slick-active button:before{
+      color: white;
+      background: #fff;
+      border-radius: 50%;
+    }
+    .slick-dots li{
+      margin: 0 15px;
+    }
+    .slick-prev{
+      left: 30px;
+      color: white;
+      z-index: 10;
+    }
+    .slick-next{
+      right: 30px;
+      color: white;
+    }
+    .slick-prev:before, .slick-next:before{
+      font-size: 35px;
+    }
+    .intro{
+    min-height: 100vh;
+    }
+  </style>
+</head>
+<body>
+<header class="header">
+  <div class="wrapper">
+    <div class="header__wrapper">
+      <div class="header__logo">
+        <a href="" class="header__logo-link">
+          <img src="img/svg/odigo-Logo.svg" alt="Odigo" class="header__logo-pig">
+        </a>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__list">
+        <li class="header__item">
+          <a href="index.html" class="header__link">Home</a>
+        </li>
+          <li class="header__item">
+            <a href="articles.html" class="header__link">Articles</a>
+          </li>
+          <li class="header__item">
+            <a href="Locations.html" class="header__link">Locations</a>
+          </li>
+          <li class="header__item">
+            <a href="index.html#videos" class="header__link">Videos</a>
+          </li>
+          <li class="header__item">
+            <a href="news.html" class="header__link">News</a>
+          </li>
+          <li class="header__item">
+          <a href="contacts.html" class="header__link">Contacts</a>
+        </li>
+        </ul>
+        <div class="header__nav-close">
+          <span class="header__nav-close-line"></span>
+          <span class="header__nav-close-line"></span>
+        </div>
+      </nav>
+      <div class="header__burger burger">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </div>
+    </div>
+  </div>
+</header>
+<main class="main">
+  <section class="intro-slider">
+    <a href="#" class="intro-link">
+      <div class="intro intro1">
+        <div class="wrapper">
+          <h1 class="intro__title">
+            Kanto
+          </h1>
+          <p class="intro__subtitle intro__subtitle-full">
+            Rustic mountain getaways and gorgeous subtropical islands
+          </p>
+         </div>
+    </div>
+    </a>
+    <a href="#" class="intro-link">
+      <div class="intro intro2">
+        <div class="wrapper">
+          <h1 class="intro__title">
+            Nikko
+          </h1>
+          <p class="intro__subtitle intro__subtitle-full">
+            Where magnificent architecture, deep history and untouched nature merge
+          </p>
+         </div>
+    </div>
+    </a>
+    <a href="#" class="intro-link">
+      <div class="intro intro3">
+        <div class="wrapper">
+          <h1 class="intro__title">
+            Kyoto
+          </h1>
+          <p class="intro__subtitle intro__subtitle-full">
+            High rise, fast-paced and neon-lit, Tokyo is as futuristic as it is historical
+
+          </p>
+         </div>
+    </div>
+    </a>
+    <a href="#" class="intro-link">
+      <div class="intro intro4">
+        <div class="wrapper">
+          <h1 class="intro__title">
+            Yamaguchi
+          </h1>
+          <p class="intro__subtitle intro__subtitle-full">
+            Quiet beaches, gorgeous pottery and samurai history
+          </p>
+         </div>
+      </div>
+    </a>
+  </section>
+
+   <!--locations style start-->
+
+   <section class="top">
+    <div class="wrapper-full">
+      <h2 class="top__title section-title">
+       Today top places to visit
+      </h2>
+      <div class="top-cards">
+        <div class="top__card">
+          <div class="top__card-pic">
+            <img src="img/top-1.jpg" alt="NAGOYA" title="NAGOYA" class="top_card-thumb">
+            <div class="top__card-stats">
+              <h3 class="top__card-title">
+               NAGOYA
+              </h3>
+              <div class="top__card-likes">
+                <span class="top__card-likes-value">
+                  221
+                </span>
+              </div>
+              <div class="top__card-comments">
+               <span class="top__card-comments-value">
+                 50
+               </span>
+             </div>
+            </div>
+          </div>
+          <p class="top__card-desk">
+            The center of the region that was the birthplace of Japan&rsquo;s greatest samurai warriors has much to offer. It&rsquo;s also where you can see half-naked men fighting for fortune and the best view of the universe this side of the stratosphere.
+          </p>
+          <a href="#" class="top__card-more button">SEE MORE</a>
+        </div>
+
+        <div class="top__card">
+         <div class="top__card-pic">
+           <img src="img/top-2.jpg" alt="NIIGATA" title="NIIGATA" class="top_card-thumb">
+           <div class="top__card-stats">
+             <h3 class="top__card-title">
+               NIIGATA
+             </h3>
+             <div class="top__card-likes">
+               <span class="top__card-likes-value">
+                 221
+               </span>
+             </div>
+             <div class="top__card-comments">
+              <span class="top__card-comments-value">
+                50
+              </span>
+            </div>
+           </div>
+         </div>
+         <p class="top__card-desk">
+          Niigata is a beautiful city whose northwest faces the Sea of Japan. As Japan&rsquo;s largest agricultural city, Niigata is covered largely by rice fields. Yet, this port town is a sophisticated transportation hub, easily accessible by air, sea and rail.
+        </p>
+         <a href="#" class="top__card-more button">SEE MORE</a>
+       </div>
+
+       <div class="top__card">
+         <div class="top__card-pic">
+           <img src="img/top-3.jpg" alt="OSAKA" title="OSAKA" class="top_card-thumb">
+           <div class="top__card-stats">
+             <h3 class="top__card-title">
+               OSAKA
+             </h3>
+             <div class="top__card-likes">
+               <span class="top__card-likes-value">
+                 221
+               </span>
+             </div>
+             <div class="top__card-comments">
+              <span class="top__card-comments-value">
+                50
+              </span>
+            </div>
+           </div>
+         </div>
+         <p class="top__card-desk">
+          Osaka is only a short shinkansen ride from Tokyo, but has a very different personality to Japan&rsquo;s capital city. Hop off the bullet train into an area of exciting nightlife, delicious food and straight-talking, friendly locals. <br>Along with plenty of shopping and modern attractions, Osaka also has a historical side, the highlight of which is Osaka Castle.
+        </p>
+         <a href="#" class="top__card-more button">SEE MORE</a>
+       </div>
+
+       <div class="top__card">
+         <div class="top__card-pic">
+           <img src="img/top-4.jpg" alt="SAITAMA" title="SAITAMA" class="top_card-thumb">
+           <div class="top__card-stats">
+             <h3 class="top__card-title">
+               SAITAMA
+             </h3>
+             <div class="top__card-likes">
+               <span class="top__card-likes-value">
+                 221
+               </span>
+             </div>
+             <div class="top__card-comments">
+              <span class="top__card-comments-value">
+                50
+              </span>
+            </div>
+           </div>
+         </div>
+         <p class="top__card-desk">
+          A major transportation hub and a stop on the way to Nikko during the Edo period, Saitama is now an urban commuter area. <br>
+          The Edo atmosphere remains, however, in many of its historic towns such as Kawagoe.
+         </p>
+         <a href="#" class="top__card-more button">SEE MORE</a>
+       </div>
+
+       <div class="top__card">
+         <div class="top__card-pic">
+           <img src="img/top-5.jpg" alt="UENO" title="UENO" class="top_card-thumb">
+           <div class="top__card-stats">
+             <h3 class="top__card-title">
+               UENO
+             </h3>
+             <div class="top__card-likes">
+               <span class="top__card-likes-value">
+                 221
+               </span>
+             </div>
+             <div class="top__card-comments">
+              <span class="top__card-comments-value">
+                50
+              </span>
+            </div>
+           </div>
+         </div>
+         <p class="top__card-desk">
+          With so many famous and fabulous places to visit in Tokyo, the Ueno area is sometimes overlooked. <br>
+          But with Ameyoko , Ueno Park  and a multitude of art galleries and museums, Ueno deserves some space in your Tokyo itinerary.
+         </p>
+         <a href="#" class="top__card-more button">SEE MORE</a>
+       </div>
+
+       <div class="top__card">
+         <div class="top__card-pic">
+           <img src="img/top-6.jpg" alt="SHIBUYA" title="SHIBUYA" class="top_card-thumb">
+           <div class="top__card-stats">
+             <h3 class="top__card-title">
+               SHIBUYA
+             </h3>
+             <div class="top__card-likes">
+               <span class="top__card-likes-value">
+                 221
+               </span>
+             </div>
+             <div class="top__card-comments">
+              <span class="top__card-comments-value">
+                50
+              </span>
+            </div>
+           </div>
+         </div>
+         <p class="top__card-desk">
+          The lively hub of Shibuya is arguably the youth heart and soul of the city, and unmissable if you&rsquo;re visiting the Tokyo area. <br>
+          With world-famous sights including the iconic scramble crossing, this area is a must-see for nightlife and trendy youth culture.
+         </p>
+         <a href="#" class="top__card-more button">SEE MORE</a>
+       </div>
+
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<!-- breadcrumb-->
+<div class="breadcrumb">
+  <div class="wrapper-full">
+    <ul class="breadcrumb__list">
+      <li class="breadcrumbs__item">
+        <a href="index.html" class="breadcrumbs__link">
+          HOME
+        </a>
+      </li>
+      <li class="breadcrumbs__item">
+        <span class="breadcrumbs__link">
+          Locations
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- footer-->
+<footer class="footer">
+  <div class="wrapper">
+    <div class="footer__item">
+      <div class="footer__logo">
+        <a href="#" title="Go to home page" class="footer__logo-link">
+          <img src="img/svg/odigo-Logo-foot.svg" alt="Odigo">
+        </a>
+      </div>
+      <div class="footer__nav">
+        <ul class="footer__menu">
+          <li class="footer__menu-item">
+            <h3 class="footer__menu-title">Company</h3>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#" class="footer__menu-link">About </a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#" class="footer__menu-link">Team </a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#" class="footer__menu-link">Careers </a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#" class="footer__menu-link">Privacy Policy </a>
+          </li>
+        </ul>
+        <ul class="footer__menu">
+          <li class="footer__menu-item">
+            <h3 class="footer__menu-title">Locations</h3>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#" class="footer__menu-link">Tokyo</a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#" class="footer__menu-link">Kyoto</a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#" class="footer__menu-link">Osaka</a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#" class="footer__menu-link">Hokkaido</a>
+          </li>
+        </ul>
+        <ul class="footer__menu">
+          <li class="footer__menu-item">
+            <h3 class="footer__menu-title">Social Media</h3>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#" class="footer__menu-link">Facebook </a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#" class="footer__menu-link">Twitter </a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#" class="footer__menu-link">Instagram </a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#" class="footer__menu-link">Youtube </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="Libs/slick/slick.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
