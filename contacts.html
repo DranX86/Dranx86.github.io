@@ -100,15 +100,15 @@
         </article>
         <article class="questions">
           <h3 class="contact__title">DROP US A LINE</h3>
-          <form class="questions-form" action="#" method="get">
+          <form class="questions-form js-form" action="#" method="get" name="INFO" onsubmit="return validate()" >
             <fieldset>
-              <input class="questions-form__text" type="text" name="name" placeholder="Name:">
-              <input class="questions-form__text" type="text" name="email" placeholder="Email:">
-              <input class="questions-form__text" type="text" name="phone" placeholder="Phone:">
-              <textarea class="questions-form__textarea" name="message" placeholder="Message:"></textarea>
+              <input id="userName" class="questions-form__text input js-input" type="text" name="name" placeholder="Name:">
+              <input class="questions-form__text input js-input js-input-email" type="text" name="email" placeholder="Email:">
+              <input class="questions-form__text input js-input js-input-phone" type="text" name="phone" placeholder="Phone:">
+              <textarea class="questions-form__textarea input js-input" name="message" placeholder="Message:"></textarea>
               <div class="buttons">
                 <button type="reset" class="questions__button button">clear</button>
-                <button type="submit" class="questions__button button">send</button>
+                <button type="submit"  class="questions__button button">send</button>
               </div>
             </fieldset>
           </form>

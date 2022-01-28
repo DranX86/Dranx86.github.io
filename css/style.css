@@ -469,7 +469,7 @@ img{
   color: #FFFFFF;
   border: solid 2px #1B7DFF;
 }
-.button:hover, .button:active, .button:focus{
+.button:hover, .button:focus{
   color: #1B7DFF;
   background-color: #ffffff;
   animation-name: button-one, button-multy;
@@ -553,7 +553,7 @@ img{
   }
   .popup:target .popup__content{
     opacity: 1;
-    transform: translate(0px, 0%) perspective(500px) rotateX(0deg);
+    transform: translate(0px, 0%);
   }
   .popup__all{
     position: absolute;
@@ -575,9 +575,10 @@ img{
     padding: 30px;
     position: relative;
     opacity: 0;
-    transform: translate(0px, -100%) perspective(500px) rotateX(45deg);
+    transform: translate(0px, -100%);
     transition: all 0.8s ease;
   }
+  /* transform: translate(0px, -100%) perspective(500px) rotateX(45deg); */
   .popup__close {
     position: absolute;
     top: 20px;
@@ -1020,7 +1021,7 @@ overflow-x: hidden;
   width: 100%;
 }
 .videos__wrapper{
-  max-width: 1440px;
+  max-width: 1232px;
   margin: 0 auto;
   position: relative;
 }
@@ -1150,7 +1151,10 @@ height: 100%;
   line-height: 29px;
   border-radius: 4px;
   margin-right: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+}
+.input.error {
+  border-color: red;
 }
 .contact__title {
   font-weight: 500;
@@ -1255,7 +1259,7 @@ height: 100%;
 /*footer style start*/
 .footer{
   background: #0E1D28;
-  padding: 119px 0;
+  padding: 89px 0;
 }
 .footer__item{
   display: flex;
@@ -1305,6 +1309,9 @@ flex: 0 1 50%;
 }
 @media screen and (max-width: 991px) {
   .seach-form__field{
+    margin-bottom: 20px;
+  }
+  .seach-form__submit{
     margin-bottom: 20px;
   }
   .benefits__card{
@@ -1459,7 +1466,7 @@ flex: 0 1 50%;
     padding-bottom: 110px;
   }
   .seach-form__field{
-    margin-right: 0px;
+    margin-right: 30px;
     padding-bottom: 12px;
     background: transparent url(../img/svg/Oval.svg) no-repeat left 3px;
   }
@@ -1470,7 +1477,7 @@ flex: 0 1 50%;
     margin-bottom: 220px;
   }
   .seach-form__submit{
-    width: 100%;
+    width: 297px;
     padding: 10px 30px;
     font-weight: 500;
     font-size: 20px;
@@ -1511,7 +1518,7 @@ flex: 0 1 50%;
     font-size: 40px;
   }
   .tours{
-    margin-bottom: 55px;
+    margin-bottom: 10px;
   }
   .tours-tour{
     margin-bottom: 50px;
@@ -1564,6 +1571,13 @@ flex: 0 1 50%;
 @media screen and (max-width:479px) {
   .header__nav{
     padding: 75px 30px;
+  }
+  .seach-form__submit{
+    width: 100%;
+  }
+  .seach-form__field {
+    width: 257px;
+    margin-right: 15px;
   }
 }
 
