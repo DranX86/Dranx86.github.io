@@ -917,19 +917,6 @@ overflow-x: hidden;
   width: 58px;
   margin-bottom: 37px;
 }
-.benefits__card:hover .benefits__card-pic img{
-  stroke: #000;
-  color: #000;
-}
-.benefits__card-pic:hover img{
-  stroke: #000;
-  color: #000;
-}
-.benefits__card-pic-icon{
-  stroke: #000;
-  color: #000;
-  fill: #000;
-}
 .benefits__card-title{
   font-weight: 500;
   font-size: 18px;
